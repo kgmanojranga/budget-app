@@ -29,11 +29,11 @@ export function AddBudgetModal({
           <Modal.Title>New Budget</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form.Group>
+          <Form.Group className="mb-3">
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" required ref={nameRef} />
           </Form.Group>
-          <Form.Group>
+          <Form.Group className="mb-3">
             <Form.Label>Maximum Spending</Form.Label>
             <Form.Control
               type="number"
